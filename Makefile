@@ -1,3 +1,3 @@
 all:
-	rm ~/vim/bundle/StatusLinePlus -rf
+	rm ~/dotfiles/vim/bundle/StatusLinePlus -rf
 	vim +BundleInstall +qall
