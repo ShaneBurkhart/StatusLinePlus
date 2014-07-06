@@ -1,1 +1,4 @@
 A plugin to change the status bar to be better looking.
+
+Colors are directly in the plugin.  To make it customizable, I need to have them as options.
+Need a flag to determine whether the file has already been sourced.
