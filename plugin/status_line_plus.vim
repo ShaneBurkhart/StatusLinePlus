@@ -8,6 +8,7 @@ function! StatusLinePlus()
     let l:status .= ' %4*%f%*'
     let l:status .= ' %5*%m%* asdf'
     let l:status .= '%='
+    let l:status .= '%3%c%* '
     let l:status .= '%4*%l%5*/%L%* '
     return l:status
 endfunction
