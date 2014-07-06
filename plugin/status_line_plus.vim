@@ -1,3 +1,8 @@
+if( exists('g:loaded_status_line_plus') && g:loaded_status_line_plus )
+    finish
+endif
+let g:loaded_status_line_plus = 1
+
 set laststatus=2
 
 set statusline=%!StatusLinePlus()
@@ -23,4 +28,4 @@ function! EditingModeStatusLine()
     endif
 endfunction
 
-
+source ./status_line_plus_colors.vim
